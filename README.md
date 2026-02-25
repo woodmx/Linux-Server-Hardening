@@ -24,3 +24,9 @@ This project demonstrates how to secure a Fedora Linux server using system harde
 - sshd
 - libpwquality
 - dnf-automatic
+
+## Docker Deployment
+Deployed a minimal Nginx web service using Docker and an unprivileged Nginx image.
+- Host port: 8080
+- Container runs unprivileged
+- Restart policy: unless-stopped
