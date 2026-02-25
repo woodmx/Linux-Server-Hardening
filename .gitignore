@@ -1,0 +1,33 @@
+# Logs
+*.log
+logs/
+
+# Backup files
+*.bak
+*.tmp
+*.swp
+
+# OS generated files
+.DS_store
+Thumbs.db
+
+# SSH keys (never upload, VERY important)
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Environment files
+.env
+
+# Docker
+docker-compose.overide.yml
+
+# Node 
+node_modules/
+
+# Python
+__pycache__/
+*pyc
+
+
