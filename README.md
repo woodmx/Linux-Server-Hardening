@@ -27,8 +27,6 @@ This project demonstrates how to secure a Fedora Linux server using system harde
 
 ## Docker Deployment
 Deployed a minimal Nginx web service using Docker and an unprivileged Nginx image.
-- Host port: 8080
-- Container runs unprivileged
 - Deployed an unprivileged Nginx container to serve a static page.
 - Host port: 8080
 - Image: nginxinc/nginx-unprivileged:alpine
